@@ -1,0 +1,17 @@
+{
+  "name": "legaltech-support-chat",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "start": "tsx src/legal_support_chat.ts",
+    "test": "tsx src/legal_support_chat.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.1",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.3",
+    "zod": "^3.23.8"
+  }
+}
